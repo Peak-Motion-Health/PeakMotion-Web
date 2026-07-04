@@ -24,19 +24,22 @@ export default function Navbar() {
         </Link>
 
         <nav className="hidden items-center gap-9 text-sm font-medium text-slate-700 md:flex">
-          <a href="/#features" className="hover:text-[#0D8B6F]">Features</a>
-          <a href="/#mission" className="hover:text-[#0D8B6F]">Mission</a>
-          <a href="/#early-access" className="hover:text-[#0D8B6F]">Early Access</a>
+          <a href="/#features" className="hover:text-[#0D8B6F]">
+            Features
+          </a>
+
+          <a href="/#mission" className="hover:text-[#0D8B6F]">
+            Mission
+          </a>
         </nav>
 
         <div className="flex items-center gap-3">
           <Link
-            href="/early-access"
-            className="rounded-xl bg-[#0D8B6F] px-6 py-3 font-semibold text-white transition hover:bg-[#0B735C]"
-          >
-            Join Early Access
+             href="/early-access"
+              className="rounded-xl bg-[#0D8B6F] px-6 py-3 font-semibold text-white transition hover:bg-[#0B735C]"
+          >     
+             Join Early Access
           </Link>
-
           <Link
             href="/login"
             className="rounded-xl border border-slate-300 bg-white px-6 py-3 font-semibold text-slate-800 transition hover:bg-slate-100"
